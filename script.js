@@ -1,3 +1,11 @@
+var sessao = document.querySelector("select").innerHTML = `
+<option value="1">01</option>`
+
+while (sessao < 31){
+    test = sessao+sessao
+    test.innerHTML = `<option value="1">05</option>`
+}
+
 function createGame (bandeira1, hora, bandeira2){
     return `
         <li>
